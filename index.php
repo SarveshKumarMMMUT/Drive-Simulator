@@ -23,7 +23,7 @@
     </header>
 
     <main role="main" class="inner cover">
-        <h1 class="cover-heading">Project Name</h1>
+        <h1 class="cover-heading">Google Drive Simulator</h1>
         <p class="lead">This is a web application that simulates the google drive storage. The file is uploaded to
             google drive as well as to your server.</p>
         <p class="lead">
