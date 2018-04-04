@@ -43,10 +43,10 @@ $result = iterate_drive();
                 foreach ($file as $name => $id) {
                     ?>
                     <div class="media text-muted pt-3">
-                        <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                        <a href="./uploads/<?php echo($name); ?>" target="_blank"><p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
                             <strong class="d-block text-gray-dark"><?php echo($name); ?></strong>
                             <?php echo($id); ?>
-                        </p>
+                        </p></a>
                     </div>
                 <?php }
             }
