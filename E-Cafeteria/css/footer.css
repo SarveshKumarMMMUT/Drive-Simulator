@@ -1,0 +1,88 @@
+.footer-container {
+    position: relative;
+    padding-top: 3%;
+    bottom: 0;
+    margin: auto;
+    float: left;
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    background-color: darkslateblue;
+    z-index: -1;
+}
+
+.footer-col {
+    width: 25%;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footer-heading {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2vw;
+}
+
+.footer-text {
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.footer-email {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+.touch-image-div {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.image-col1 {
+    margin-left: 28%;
+    background-image: url('./../images/youtubeIcon.png');
+    background-repeat: no-repeat;
+    width: 15%;
+    float: left;
+    height: 40px;
+    transition: transform 0.5s;
+
+}
+
+.image-col1:hover {
+    transform: scale(1.2);
+}
+
+.image-col2 {
+    background-image: url('./../images/twitterIcon.png');
+    background-repeat: no-repeat;
+    width: 15%;
+    float: left;
+    height: 40px;
+    transition: transform 0.5s;
+}
+
+.image-col2:hover {
+    transform: scale(1.2);
+}
+
+.image-col3 {
+    background-image: url('./../images/fbIcon.png');
+    background-repeat: no-repeat;
+    width: 20%;
+    float: left;
+    height: 40px;
+    transition: transform 0.5s;
+}
+
+.image-col3:hover {
+    transform: scale(1.2);
+}

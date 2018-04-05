@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: cornflowerblue;
+}
+
+.parent {
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+        margin-bottom: 5%;
+}
+
+.child {
+    width: 100%;
+    min-height: 500px;
+    background-color: cornflowerblue;
+}
+
+.card-main-heading {
+    font-size: 4vw;
+    text-align: center;
+    color: white;
+    line-height: 1;
+    padding-top: 25px;
+    margin: 0;
+    padding-bottom: 2;
+}
+
+.container {
+    padding-top: 50px;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.inputLbl {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #32496f;
+    padding: 5px;
+    font-size: 1.5vw;
+}
+
+input[type=email] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    resize: both;
+    margin: 0px 0px 8px 0px;
+}
+
+input[type=email]:hover {
+    border: 2px solid #32496f;
+}
+
+input[type=email]:focus {
+    border: 2px solid #32496f;
+}
+
+input[type=password]:focus {
+    border: 2px solid #32496f;
+}
+
+input[type=password] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    resize: both;
+    margin: 0px 0px 8px 0px;
+
+}
+
+input[type=password]:hover {
+    border: 2px solid #32496f;
+}
+
+input[type=submit] {
+    background-color: #32496f;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 2px solid #32496f;
+    resize: both;
+    margin: 0px 0px 8px 0px;
+    cursor: pointer;
+    font-size: 120%;
+    color: white;
+}
+
+.forgot-link:hover {
+    color: black;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    resize: both;
+    margin: 0px 0px 8px 0px;
+
+}
+
+input[type=text]:hover {
+    border: 2px solid #32496f;
+}

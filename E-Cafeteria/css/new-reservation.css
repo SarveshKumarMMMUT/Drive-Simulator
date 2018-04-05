@@ -1,0 +1,189 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+       background-color: cornflowerblue;
+
+}
+
+.container-main-reservation {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.input-div {
+    padding-top: 5px;
+    width: 100%;
+    height: 55px;
+}
+
+.email_input{
+    width: 70%;
+    border: 1px solid #32496f;
+    border-radius: 3px;
+    height: 70%;
+    cursor: pointer;
+    color: #32496f;
+    text-align: center;
+    margin-top: 8px;
+}
+input[type=email] {
+    width: 70%;
+    border: 1px solid #32496f;
+    border-radius: 3px;
+    height: 70%;
+    cursor: pointer;
+    color: #32496f;
+    text-align: center;
+    margin-top: 8px;
+}
+
+input[type=date]:hover {
+    box-shadow: 0 0 3px rgba(50, 73, 111, 1);
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 0 3px rgba(50, 73, 111, 1);
+}
+
+select:hover {
+    box-shadow: 0 0 3px rgba(50, 73, 111, 1);
+}
+
+input[type=submit] {
+
+    border: none;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 12px;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #32496f;
+    background-color: #32496f;
+    font-size: 1.5vw;
+    border-radius: 0 0 5px 5px;
+}
+
+.text-heading {
+    
+    color: darkslateblue;
+    padding: 0px;
+    padding-left: 10px;
+    margin-bottom: -12px;
+}
+
+.menu-main-heading {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.menu-title {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 4vw;
+    letter-spacing: .01vw;
+}
+
+.parent {
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+        margin-bottom: 5%;
+}
+
+.child {
+    width: 100%;
+    min-height: 700px;
+    background-color: cornflowerblue;
+}
+
+.text-container-div {
+    width: 60%;
+    height: auto;
+    margin-top: 50px;
+    float: left;
+    max-height: 400px;
+
+}
+
+select {
+    margin-top: 8px;
+    width: 70%;
+    border: 1px solid #32496f;
+    border-radius: 4px;
+    height: 70%;
+    cursor: pointer;
+    color: #32496f;
+
+}
+
+.card-main-heading {
+    font-size: 4vw;
+    text-align: center;
+    color: white;
+    line-height: 1;
+    padding-top: 25px;
+    margin: 0;
+    padding-bottom: 2;
+}
+
+.card-info {
+    margin: 0;
+    padding: 8;
+    font-family: sans-serif;
+    font-size: 1vw;
+    line-height: .2;
+    text-align: center;
+    color: #32496f;
+}
+
+.card-last-info {
+    margin: 0;
+    padding: 12;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #32496f;
+}
+
+
+.text {
+    padding: 8px;
+    text-align: left;
+    padding-left: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.form-container {
+    margin-left: 10%;
+    width: 28%;
+    margin-top: 120px;
+    box-sizing: border-box;
+    border: 3px solid #32496f;
+    float: left;
+    min-height: 350px;
+}
+
+.image-div {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.table-booking-heading {
+    color: white;
+    font-size: 1.3vw;
+    text-align: center;
+    padding: 0px;
+
+}

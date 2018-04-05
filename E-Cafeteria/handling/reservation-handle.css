@@ -1,0 +1,44 @@
+/*written by Anurag Yadav 1/26/2018*/
+
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+.parent {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    min-height: 600px;
+    background-color: rgba(208, 222, 245);
+    box-shadow: 0px 12px 12px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-main-heading {
+    font-family: cursive;
+    font-size: 4vw;
+    text-align: center;
+    color: #32496f;
+    line-height: 1;
+    padding-top: 10%;
+    margin: 0;
+    padding-bottom: 2;
+}
+
+.card-info {
+    font-family: cursive;
+    font-size: 2vw;
+    text-align: center;
+    color: #32496f;
+    line-height: 1;
+    padding-top: 50px;
+    margin: 0;
+    padding-bottom: 2;
+}

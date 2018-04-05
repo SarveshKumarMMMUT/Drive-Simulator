@@ -1,0 +1,141 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+        background-color: cornflowerblue;
+
+}
+
+.menu-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.menu-main-heading {
+    border-bottom: 1px solid white;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.menu-title {
+    text-align: center;
+    margin: 0px;
+    padding-top: 0px;
+    color: white;
+    font-family: monospace;
+    font-size: 5vw;
+
+    
+}
+
+.menu-card-container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.menu-card-main-heading {
+    font-family: sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    color: white;
+    line-height: 1;
+    padding-top: 25px;
+    margin: 0;
+    padding-bottom: 2;
+
+}
+
+.menu-card {
+    width: 100%;
+    background-color: cornflowerblue;
+    min-height: 1200px;
+    margin-top: 30px;
+}
+
+.menu-card-info {
+    margin: 20px;
+    padding: 8px;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    line-height: .2;
+    text-align: center;
+    color: white;
+}
+
+.menu-card-last-info {
+    margin: 0;
+    padding: 12;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #32496f;
+}
+
+.menu-card-image {
+    margin: auto;
+    width: 80%;
+    height: 400px;
+    background-image: url('./../images/starter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.menu-table-title {
+    font-size: 1.5vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #32496f;
+}
+
+.menu-table-div {
+    margin: auto;
+    height: auto;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.menu-name {
+    padding: 0;
+    line-height: 0;
+    font-family: sans-serif;
+    font-size: 2vw;
+    color: darkblue;
+}
+
+.just-menu {
+    margin: 0;
+    width: 100%;
+    min-height: 40px;
+    margin-top: 40px;
+}
+
+.menu-info {
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 1.1vw;
+    line-height: 1.4vw;
+}
+
+.just-menu-info-div {
+    width: 100%;
+}
+
+.price {
+   
+    color: white;
+    float: right;
+    padding-right: 5px;
+    font-size: 2vw;
+    line-height: 0;
+}
